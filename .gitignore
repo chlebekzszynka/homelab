@@ -1,0 +1,66 @@
+# Homelab .gitignore
+
+# Sensitive files
+*.env
+*.key
+*.pem
+*.crt
+*_key
+*_secret
+secrets/
+credentials/
+
+# Temporary files
+*.tmp
+*.log
+*.backup
+*.bak
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.vscode/settings.json
+.idea/
+*.sublime-*
+
+# Docker
+docker-compose.override.yml
+.env.local
+
+# Ansible
+*.retry
+vault_pass.txt
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+
+# Monitoring data
+grafana/data/
+prometheus/data/
+logs/
+
+# Backup files
+backups/
+*.sql.gz
+*.tar.gz
+
+# Personal notes
+TODO.md
+NOTES.md
+personal/
+
+# Auto-generated files
+services_temp.md
