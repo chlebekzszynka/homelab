@@ -1,10 +1,10 @@
-# Homelab Infrastructure
+# 🏠 Homelab Infrastructure
 
 Technical documentation for multi-server homelab environment. 
 
 ## Hardware Infrastructure
 
-### Physical Servers
+### 🖥️ Physical Servers
 
 | Device | Model | CPU | RAM | Storage | Network | Role |
 |--------|-------|-----|-----|---------|---------|------|
@@ -233,7 +233,42 @@ All Docker services use compose files located in `docker/compose/[service]/`.
 - **Local**: Direct IP access
 - **Remote**: Tailscale VPN only
 - **Management**: SSH, IPMI where available
-- **Claudflare Tunnel/Zero Trust**: Some services exposure
+- **Claudflare Tunnel/Zero Trust**
+  
+## 🤝 Inspiration
+
+This homelab was inspired by:
+- [mischavandenburg/homelab](https://github.com/mischavandenburg/homelab)
+- [awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted)
+
+
+## ⚠️ Disclaimer
+
+This is a personal homelab documentation for reference purposes.
+- No pull requests accepted
+- Configuration examples may be simplified
+- Always adapt security settings to your needs
+
+## 🔒 Security Note
+
+- All IP addresses are from private RFC1918 ranges
+- No public endpoints are exposed
+- Services are accessed via VPN/Zero Trust only
+
+## 🔒 Repository Status
+
+This repository is READ-ONLY.
+- No pull requests accepted
+- No external contributions
+- Documentation purposes only
+
+For questions, open an issue.
+
+---
+
+⭐ **If this project inspired you, leave a star!**
+
+
 
 ---
 
