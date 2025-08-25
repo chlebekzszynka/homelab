@@ -1,6 +1,6 @@
 # Homelab Infrastructure
 
-Technical documentation for multi-server homelab environment.
+Technical documentation for multi-server homelab environment. 
 
 ## Hardware Infrastructure
 
@@ -178,6 +178,7 @@ A collection of radio hardware for experiments in Software-Defined Radio (SDR), 
 - **DNS**: Pi-hole (primary), Pi-hole on Proxmox (secondary)
 - **DHCP**: MikroTik router
 - **VPN**: Tailscale mesh (8 devices)
+- **Zero Trust** Claudflare Tunnel
 - **Firewall**: MikroTik, planned Sophos UTM
 
 ## Monitoring Stack
