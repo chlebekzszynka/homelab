@@ -51,7 +51,7 @@ A collection of radio hardware for experiments in Software-Defined Radio (SDR), 
 | [Ubertooth One](https://greatscottgadgets.com/ubertoothone/) | Bluetooth Analyzer      | The de facto standard for sniffing and analyzing classic Bluetooth (BR/EDR) traffic.                  | 2.4 GHz           |
 | [(tr)uSDX](https://www.dl2man.de/) (Clone) | HAM QRP Transceiver     | Ultra-portable, multi-band QRP transceiver for digital mode operations (JS8Call, FT8) from anywhere. | 3.5-30 MHz (HF)   |
 | [QRP Labs QDX-M](https://qrp-labs.com/qdx.html) | HAM QRP Transceiver     | Specialized 5W digital-mode-only transceiver, engineered for high-efficiency QRP operations.          | 11 m    |
-| [CRT SS 7900 V](https://www.crtfrance.com/en/mobiles-transceivers/993-crt-ss-7900-v-turbo.html) | HAM/CB Transceiver      | Higher-power (up to 30W) transceiver serving as a base station for 10m/11m band operations.          | 28-29.7 MHz       |
+| [CRT SS 7900 V](https://www.crtfrance.com/en/mobiles-transceivers/993-crt-ss-7900-v-turbo.html) | HAM/CB Transceiver      | Higher-power (up to 60W SSB) transceiver serving as a base station for 10m/11m band operations.          | 28-29.7 MHz       |
 | Microcontroller Arsenal | Wi-Fi/BLE Pentesting    | A toolkit of microcontrollers running specialized firmware for hands-on Wi-Fi and BLE security research.  | 2.4 GHz           |
 | ↳ [ESP32 Marauder](https://github.com/justcallmekoko/ESP32Marauder) | Wi-Fi/BLE Pentesting    | Portable Wi-Fi and Bluetooth auditing toolkit.                                                        | 2.4 GHz           |
 | ↳ [ESP8266 Deauther](https://github.com/SpacehuhnTech/esp8266_deauther) | Wi-Fi Pentesting        | The classic tool for Wi-Fi deauthentication attacks and network analysis.                             | 2.4 GHz           |
@@ -83,7 +83,7 @@ A collection of radio hardware for experiments in Software-Defined Radio (SDR), 
 
 | Service | Repository | Port | Platform | Description |
 |---------|------------|------|----------|-------------|
-| Pi-hole | [pi-hole/pi-hole](https://github.com/pi-hole/pi-hole) | 80/53 | Docker | DNS sinkhole |
+| Pi-hole | [pi-hole/pi-hole](https://github.com/pi-hole/pi-hole) | 80/53 | Bare metal | DNS sinkhole |
 | Pi-hole (Proxmox) | [pi-hole/pi-hole](https://github.com/pi-hole/pi-hole) | 80/53 | LXC | Secondary DNS |
 | NetBox | [netbox-community/netbox](https://github.com/netbox-community/netbox) | 8000 | Docker | IPAM and DCIM |
 | WatchYourLAN | [aceberg/WatchYourLAN](https://github.com/aceberg/WatchYourLAN) | - | Docker | Network device discovery |
