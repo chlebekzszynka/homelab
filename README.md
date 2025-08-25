@@ -11,7 +11,7 @@ Technical documentation for multi-server homelab environment.
 | **Primary Server** | Raspberry Pi | ARM | 7GB | 459GB | 1GbE | Service orchestration, containers |
 | **Cold Storage** | Firebat AM02 | Intel N100 (4C/4T) | 16GB DDR4 | 13.7TB (6-drive array) | 2.5GbE | Unraid, archival storage |
 | **Fast Storage** | FriendlyElec CM3588 | RK3588 (8C) | 16GB LPDDR4x | 7.27TB ZFS RAID-Z2 | 2.5GbE | OpenMediaVault, NVMe storage |
-| **Compute Node** | LattePanda Sigma | Intel i5-1340P (12C/16T) | 16GB LPDDR5 | 953GB/1T | 2.5GbE | AI/ML workloads, [Dragon OS](https://www.dragonos.org/) SDR hub/ dual boot|
+| **Compute Node** | LattePanda Sigma | Intel i5-1340P (12C/16T) | 16GB LPDDR5 | 953GB/1T | 2.5GbE | AI/ML workloads, [Dragon OS](https://cemaxecuter.com/) SDR hub/ dual boot|
 | **GPU Acceleration** | AMD RX 7600 XT | RDNA 3 | 16GB VRAM | - | PCIe 4.0 | LLM inference, image generation |
 | **Kubernetes Lab** | Raspberry Pi 4 | ARM | 2GB | SD Card | 1GbE | Kubernetes |
 | **Virtualization** | Soyo M4Air | N95 | 16GB DDR4 | 512 GB | 2.5GbE | Proxmox VE |
