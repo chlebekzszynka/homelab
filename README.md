@@ -127,9 +127,9 @@ A collection of radio hardware for experiments in Software-Defined Radio (SDR), 
 
 | Service | Repository | Port | Platform | Description |
 |---------|------------|------|----------|-------------|
-| Node-RED | [node-red/node-red](https://github.com/node-red/node-red) | 1880 | Docker | Flow-based programming |
-| Home Assistant | [home-assistant/core](https://github.com/home-assistant/core) | 8123 | Bare metal | Home automation |
-| Mosquitto | [eclipse/mosquitto](https://github.com/eclipse/mosquitto) | 1883 | Docker | MQTT broker |
+| Node-RED | [node-red/node-red](https://github.com/node-red/node-red) | 1880 | Bare Metal | Flow-based programming |
+| Home Assistant | [home-assistant/core](https://github.com/home-assistant/core) | 8123 | LXC container | Home automation |
+| Mosquitto | [eclipse/mosquitto](https://github.com/eclipse/mosquitto) | 1883 | Bare metal | MQTT broker |
 
 ### System Services
 
@@ -155,7 +155,7 @@ A collection of radio hardware for experiments in Software-Defined Radio (SDR), 
 |------|------------|----------|----------|
 | Fast | ZFS RAID-Z2 (4x NVMe) | 7.27TB | Active data, databases |
 | Cold | Unraid (6-drive array) | 13.7TB | Media, archives |
-| Local | ext4 | 459GB | Container volumes |
+
 
 ### Storage Distribution
 
@@ -170,7 +170,7 @@ A collection of radio hardware for experiments in Software-Defined Radio (SDR), 
 | VLAN | Network | Purpose |
 |------|---------|---------|
 | 1 | Default | Main homelab network |
-| 10 | IoT | Device isolation |
+| 591 | IoT | Device isolation in Deco Wifi |
 | 99 | Management | Infrastructure management |
 
 ### Network Services
@@ -222,7 +222,7 @@ All Docker services use compose files located in `docker/compose/[service]/`.
 
 - **UPS**: PowerWalker 1500VA
 - **Runtime**: ~20-30 minutes at current load
-- **Monitoring**: NUT with automated shutdown
+- **Monitoring**: NUT with automated shutdown servers
 - **Protected**: All critical infrastructure
 
 
@@ -236,4 +236,4 @@ All Docker services use compose files located in `docker/compose/[service]/`.
 
 ---
 
-*Infrastructure as of December 2024*
+*Infrastructure as of Aug 2025*
