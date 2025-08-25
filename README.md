@@ -1,5 +1,7 @@
 # 🏠 Homelab Infrastructure
 
+Note: This repository is AI-generated and is currently undergoing verification. It may temporarily contain misleading information.
+
 Technical documentation for multi-server homelab environment. 
 
 ## Hardware Infrastructure
@@ -33,7 +35,7 @@ Technical documentation for multi-server homelab environment.
 | Router | MikroTik RB5009UG+S+IN | Gateway, firewall, WAN Load Balancing and Failover |
 | Managed Switch | Xikestor SKS3200M-8GPY1XF | 8x 2.5G, 1x SFP, 60 GBbps |
 | Enterprise Switch | Cisco Catalyst 2960-S | L2 switching |
-| Mesh WiFi | TP-Link Deco (M5x2, P9x3, X50-PoE) | Wireless coverage |
+| Mesh WiFi | TP-Link Deco (M5x2, P9x3, X50-PoE) | Wireless coverage - AP mode|
 | UPS | PowerWalker 1500VA | Power protection |
 
 
