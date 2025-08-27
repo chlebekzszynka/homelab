@@ -6,6 +6,8 @@ Technical documentation for multi-server homelab environment.
 
 ## Hardware Infrastructure
 
+![Network diagram](./assets/homelab.drawio.svg)
+
 ### 🖥️ Physical Servers
 
 | Device | Model | CPU | RAM | Storage | Network | Role |
