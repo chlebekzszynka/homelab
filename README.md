@@ -6,7 +6,7 @@ Technical documentation for multi-server homelab environment.
 
 ## Hardware Infrastructure
 
-![Network diagram](./assets/homelab.drawio.svg)
+![Network diagram](./assets/homelab.drawio.svg?=v2)
 
 ### 🖥️ Physical Servers
 
