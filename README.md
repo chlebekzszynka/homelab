@@ -8,7 +8,7 @@ The real game-changer for this little powerhouse was discovering [CasaOS](https:
 
 Currently running 23 containers (everything from Jellyfin to Uptime Kuma and Sonarr) at ~60% RAM utilization, which means it's time to add another Pi 5 - this time with 16GB RAM.
 
-What truly sets my homelab apart isn't the services or automation (which will be systematically documented in this repo), but rather its HAM radio and radiocommunication capabilities - a comprehensive write-up of this infrastructure is coming next.
+While most homelabs focus on typical self-hosted services, what makes mine unique is the extensive HAM radio and SDR infrastructure - from HackRF One with PortaPack to QRP transceivers and a collection of specialized SDR receivers. This radiocommunication ecosystem will be thoroughly documented in upcoming sections.
 
 The next milestone was building a proper NAS with [FriendlyElec CM3588 NAS Kit](https://www.friendlyelec.com/index.php?route=product/product&product_id=294) running OpenMediaVault, but that's a story for [JOURNEY.md](./JOURNEY.md) - keeping this README focused on technical details and quick references.
 
@@ -57,7 +57,9 @@ Note: This repository is AI-generated and is currently undergoing verification. 
 
 ### 📡 Radio Infrastructure
 
-A collection of radio hardware for experiments in Software-Defined Radio (SDR), HAM radio operations, and wireless security analysis.
+What truly sets this homelab apart from typical setups is the extensive radio and SDR infrastructure. 
+Beyond standard IT services, this lab serves as a complete radio experimentation platform - from 
+HAM radio operations and SDR research to wireless security analysis.
 
 | Device / Platform                                                    | Type                    | Primary Use Case                                                                                      | Frequency Range   |
 | :------------------------------------------------------------------- | :---------------------- | :---------------------------------------------------------------------------------------------------- | :---------------- |
