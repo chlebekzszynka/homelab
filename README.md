@@ -258,9 +258,8 @@ HAM radio operations and SDR research to wireless security analysis.
 ## 🤝 Inspiration
 
 This homelab was inspired by:
-- [mischavandenburg/homelab](https://github.com/mischavandenburg/homelab)
+- [@mischavandenburg](https://github.com/mischavandenburg)'s [excellent homelab documentation](https://github.com/mischavandenburg/homelab) - thank you for setting the bar high!
 - [awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted)
-
 
 ## ⚠️ Disclaimer
 
