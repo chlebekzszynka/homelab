@@ -1,8 +1,21 @@
 # 🏠 Homelab Infrastructure
 
+## The Beginning
+
+My homelab journey started with a Raspberry Pi 5 (8GB RAM - the 16GB version wasn't available yet) that I initially bought as a desktop experiment. It quickly evolved into a server, starting with Pi-hole for network-wide ad blocking. 
+
+The real game-changer for this little powerhouse was discovering [CasaOS](https://github.com/IceWhaleTech/CasaOS). I'm surprised it's not more popular in the homelab community - it provides a gentle introduction to Docker, making container deployment as simple as installing apps on a smartphone. Sure, not every container works perfectly out-of-the-box without manual configuration tweaks, but the learning curve is gentle enough to enjoy self-hosting from day one. 
+
+Currently running 23 containers (everything from Jellyfin to 
+Uptime Kuma and Sonarr) at ~60% RAM utilization, which means it's time to add another Pi 5 - this time with 16GB RAM.
+
+The next milestone was building a proper NAS with [FriendlyElec CM3588 NAS Kit](https://www.friendlyelec.com/index.php?route=product/product&product_id=294) running OpenMediaVault, but that's a story for [JOURNEY.md](./JOURNEY.md) - keeping this README focused on technical details and quick references.
+
+
+
 Note: This repository is AI-generated and is currently undergoing verification. It may temporarily contain misleading information.
 
-Technical documentation for multi-server homelab environment. 
+## Technical documentation for multi-server homelab environment.
 
 ## Hardware Infrastructure
 
